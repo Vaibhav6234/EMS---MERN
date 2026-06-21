@@ -25,10 +25,10 @@ const App = () => {
         <Route element={<Layout />}>
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/employees" element={<Employees />} />
-          <Route path="/attandence" element={<Attandence />} />
+          <Route path="/attendance" element={<Attandence />} />
           <Route path="/leave" element={<Leave />} />
           <Route path="/payslips" element={<Payslip />} />
-          <Route path="/setting" element={<Settings />} />
+          <Route path="/settings" element={<Settings />} />
         </Route>
         <Route path="/print/payslips/:id" element={<PrintPlayslip />} />
         <Route path="*" element={<Navigate to="/dashboard" />} replace />
